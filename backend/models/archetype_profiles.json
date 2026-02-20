@@ -1,0 +1,178 @@
+{
+  "0": {
+    "id": 0,
+    "customer_count": 883,
+    "avg_basket_value": 300.7400356272644,
+    "min_basket_value": 241.8867497168743,
+    "max_basket_value": 376.0247225368063,
+    "avg_total_spend": 665.9970554926388,
+    "avg_visit_count": 2.203850509626274,
+    "category_preferences": {
+      "categ_0": 0.020537737911493315,
+      "categ_1": 0.8792105414085243,
+      "categ_2": 0.0477465779746174,
+      "categ_3": 0.02974383807873909,
+      "categ_4": 0.022761304626625897
+    }
+  },
+  "1": {
+    "id": 1,
+    "customer_count": 465,
+    "avg_basket_value": 279.0958334225512,
+    "min_basket_value": 217.45286021505373,
+    "max_basket_value": 358.3310537634409,
+    "avg_total_spend": 724.0570322580645,
+    "avg_visit_count": 2.443010752688172,
+    "category_preferences": {
+      "categ_0": 0.034015213369162536,
+      "categ_1": 0.46848295089188424,
+      "categ_2": 0.4097804410425082,
+      "categ_3": 0.047920919144570556,
+      "categ_4": 0.039800475551874465
+    }
+  },
+  "2": {
+    "id": 2,
+    "customer_count": 1,
+    "avg_basket_value": 77183.6,
+    "min_basket_value": 77183.6,
+    "max_basket_value": 77183.6,
+    "avg_total_spend": 77183.6,
+    "avg_visit_count": 1.0,
+    "category_preferences": {
+      "categ_0": 0.0,
+      "categ_1": 1.0,
+      "categ_2": 0.0,
+      "categ_3": 0.0,
+      "categ_4": 0.0
+    }
+  },
+  "3": {
+    "id": 3,
+    "customer_count": 1273,
+    "avg_basket_value": 415.8143357446647,
+    "min_basket_value": 291.5722230950511,
+    "max_basket_value": 566.4444776119403,
+    "avg_total_spend": 1266.1956480754125,
+    "avg_visit_count": 3.201885310290652,
+    "category_preferences": {
+      "categ_0": 0.044560480095097575,
+      "categ_1": 0.6512659283239896,
+      "categ_2": 0.09537267991682298,
+      "categ_3": 0.12304836318883165,
+      "categ_4": 0.08575254847525811
+    }
+  },
+  "4": {
+    "id": 4,
+    "customer_count": 7,
+    "avg_basket_value": 382.37145964645936,
+    "min_basket_value": 11.144285714285715,
+    "max_basket_value": 1862.7128571428568,
+    "avg_total_spend": 35722.060000000005,
+    "avg_visit_count": 92.28571428571429,
+    "category_preferences": {
+      "categ_0": 0.07468218088924782,
+      "categ_1": 0.6863926587236898,
+      "categ_2": 0.1023229828368913,
+      "categ_3": 0.07966415334064739,
+      "categ_4": 0.05693802420952358
+    }
+  },
+  "5": {
+    "id": 5,
+    "customer_count": 41,
+    "avg_basket_value": 310.650162601626,
+    "min_basket_value": 282.94975609756096,
+    "max_basket_value": 343.8468292682926,
+    "avg_total_spend": 460.7187804878049,
+    "avg_visit_count": 1.6341463414634145,
+    "category_preferences": {
+      "categ_0": 0.6788460588749552,
+      "categ_1": 0.20922678069367137,
+      "categ_2": 0.06324466674689552,
+      "categ_3": 0.022795215193260648,
+      "categ_4": 0.02588727849121721
+    }
+  },
+  "6": {
+    "id": 6,
+    "customer_count": 170,
+    "avg_basket_value": 327.62422478567186,
+    "min_basket_value": 241.7984705882353,
+    "max_basket_value": 413.68994117647065,
+    "avg_total_spend": 981.8895294117646,
+    "avg_visit_count": 2.823529411764706,
+    "category_preferences": {
+      "categ_0": 0.0415856118668765,
+      "categ_1": 0.4308285467517832,
+      "categ_2": 0.0740238334445073,
+      "categ_3": 0.060502646367348256,
+      "categ_4": 0.39305936156948473
+    }
+  },
+  "7": {
+    "id": 7,
+    "customer_count": 149,
+    "avg_basket_value": 486.1898901396863,
+    "min_basket_value": 82.69053691275167,
+    "max_basket_value": 1358.7673825503357,
+    "avg_total_spend": 9378.695234899327,
+    "avg_visit_count": 18.986577181208055,
+    "category_preferences": {
+      "categ_0": 0.07776961478136776,
+      "categ_1": 0.6649752498955185,
+      "categ_2": 0.09922180888674711,
+      "categ_3": 0.07852573298923535,
+      "categ_4": 0.0795075934471313
+    }
+  },
+  "8": {
+    "id": 8,
+    "customer_count": 464,
+    "avg_basket_value": 441.2193795625471,
+    "min_basket_value": 323.2564655172414,
+    "max_basket_value": 582.2135129310345,
+    "avg_total_spend": 1328.4141594827584,
+    "avg_visit_count": 2.9913793103448274,
+    "category_preferences": {
+      "categ_0": 0.20993710278532987,
+      "categ_1": 0.5588986099117697,
+      "categ_2": 0.08025658568579395,
+      "categ_3": 0.08333624781430726,
+      "categ_4": 0.0675714538027992
+    }
+  },
+  "9": {
+    "id": 9,
+    "customer_count": 10,
+    "avg_basket_value": 6542.372450741599,
+    "min_basket_value": 1775.6080000000002,
+    "max_basket_value": 20893.150999999998,
+    "avg_total_spend": 92845.97399999999,
+    "avg_visit_count": 22.9,
+    "category_preferences": {
+      "categ_0": 0.06827250289278732,
+      "categ_1": 0.6552981806935335,
+      "categ_2": 0.09023562731553661,
+      "categ_3": 0.09369201417458566,
+      "categ_4": 0.0925016749235569
+    }
+  },
+  "10": {
+    "id": 10,
+    "customer_count": 150,
+    "avg_basket_value": 325.05452407407404,
+    "min_basket_value": 248.90806666666666,
+    "max_basket_value": 406.5241333333333,
+    "avg_total_spend": 659.5187333333333,
+    "avg_visit_count": 1.9066666666666667,
+    "category_preferences": {
+      "categ_0": 0.03882873303791367,
+      "categ_1": 0.38552626120263256,
+      "categ_2": 0.054367372936906466,
+      "categ_3": 0.47947648475598403,
+      "categ_4": 0.04180114806656339
+    }
+  }
+}
