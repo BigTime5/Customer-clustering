@@ -12,6 +12,7 @@ export default function Predictor() {
 
   const runPrediction = async () => {
     setLoading(true);
+    setResult(null);
     try {
       const res = await predictSimple({
         basket_value: parseFloat(basket),

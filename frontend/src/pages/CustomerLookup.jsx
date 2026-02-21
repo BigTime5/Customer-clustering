@@ -19,7 +19,7 @@ export default function CustomerLookup() {
       const res = await getCustomer(query.trim());
       setData(res);
     } catch (err) {
-      setError(err.response?.data?.detail || 'Customer not found or error occurred.');
+      setError(err.response?.data?.detail || 'Customer not found. Please try a valid CustomerID (e.g. 12346 - 18287).');
       setData(null);
     } finally {
       setLoading(false);
