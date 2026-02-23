@@ -8,9 +8,11 @@ import SegmentExplorer from './pages/SegmentExplorer'
 import CategoryExplorer from './pages/CategoryExplorer'
 import BusinessIntelligence from './pages/BusinessIntelligence'
 import { healthCheck } from './api/client'
+import { Menu } from 'lucide-react'
 
 function App() {
   const [apiStatus, setApiStatus] = useState('connecting'); // 'connecting' | 'online' | 'offline'
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
     // Initial check
@@ -31,7 +33,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app-layout">
-        <Sidebar apiStatus={apiStatus} />
+        <button className="mobile-menu-btn btn-ghost" onClick={() => setSidebarOpen(true)}>
+          <Menu size={20} />
+        </button>
+        {sidebarOpen && <div className="sidebar-overlay" onClick={() => setSidebarOpen(false)} />}
+        <Sidebar apiStatus={apiStatus} isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Dashboard />} />

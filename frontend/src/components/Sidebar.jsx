@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import {
-  LayoutDashboard, Users, Zap, PieChart, Package, MessageSquare
+  LayoutDashboard, Users, Zap, PieChart, Package, MessageSquare, X
 } from 'lucide-react';
 
 const SEGMENT_COLORS = [
@@ -17,15 +17,20 @@ const NAV_ITEMS = [
   { to: '/bi', icon: MessageSquare, label: 'Business Intelligence' },
 ];
 
-export function Sidebar({ apiStatus }) {
+export function Sidebar({ apiStatus, isOpen, onClose }) {
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
       <div className="sidebar-logo">
-        <div className="sidebar-logo-icon">🧠</div>
-        <div>
-          <div className="sidebar-logo-text">CustomerIQ</div>
-          <div className="sidebar-logo-sub">Segmentation Intelligence</div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <div className="sidebar-logo-icon">🧠</div>
+          <div>
+            <div className="sidebar-logo-text">CustomerIQ</div>
+            <div className="sidebar-logo-sub">Segmentation Intelligence</div>
+          </div>
         </div>
+        <button className="sidebar-close btn-ghost" onClick={onClose}>
+          <X size={20} />
+        </button>
       </div>
 
       <nav className="sidebar-nav">
@@ -35,6 +40,7 @@ export function Sidebar({ apiStatus }) {
             key={to}
             to={to}
             end={to === '/'}
+            onClick={onClose}
             className={({ isActive }) => `nav-item${isActive ? ' active' : ''}`}
           >
             <Icon size={16} />
